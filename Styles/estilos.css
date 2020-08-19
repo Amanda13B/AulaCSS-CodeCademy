@@ -1,15 +1,45 @@
+*{
+    margin:0;
+}
+
 body{
     font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    background-color: lightgoldenrodyellow;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../Images/paisagem2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    background-color: rgba(0,0,0,0.8);
+}
+
+a{
+    color: coral;
+}
+
+main{
+    text-align: right;
+    height: 92.3vh;
 }
 
 h1{
     font-size: 40px;
+    margin-right: 20px;
+    padding-top: 20px;
 }
 
 p{
     font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-right: 20px;
 }
 
 img{
     height: 50px;
+    opacity: 0.8;
+    margin-top: 20px;
+    margin-right: 50px;
 }
